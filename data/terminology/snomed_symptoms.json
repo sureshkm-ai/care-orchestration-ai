@@ -1,0 +1,17 @@
+[
+  {"code": "29857009", "display": "Chest pain", "is_active": true},
+  {"code": "25064002", "display": "Headache", "is_active": true},
+  {"code": "386661006", "display": "Fever", "is_active": true},
+  {"code": "49727002", "display": "Cough", "is_active": true},
+  {"code": "267036007", "display": "Dyspnea (shortness of breath)", "is_active": true},
+  {"code": "422587007", "display": "Nausea", "is_active": true},
+  {"code": "422400008", "display": "Vomiting", "is_active": true},
+  {"code": "21522001", "display": "Abdominal pain", "is_active": true},
+  {"code": "271807003", "display": "Rash", "is_active": true},
+  {"code": "404640003", "display": "Dizziness", "is_active": true},
+  {"code": "84229001", "display": "Fatigue", "is_active": true},
+  {"code": "62315008", "display": "Diarrhea", "is_active": true},
+  {"code": "68962001", "display": "Muscle pain (myalgia)", "is_active": true},
+  {"code": "162397003", "display": "Pain in throat (sore throat)", "is_active": true},
+  {"code": "230145002", "display": "Difficulty breathing", "is_active": true}
+]

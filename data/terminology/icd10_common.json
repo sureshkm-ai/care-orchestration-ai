@@ -1,0 +1,22 @@
+[
+  {"code": "I10", "display": "Essential (primary) hypertension", "is_active": true},
+  {"code": "E11.9", "display": "Type 2 diabetes mellitus without complications", "is_active": true},
+  {"code": "J45.909", "display": "Unspecified asthma, uncomplicated", "is_active": true},
+  {"code": "I25.10", "display": "Atherosclerotic heart disease of native coronary artery", "is_active": true},
+  {"code": "J06.9", "display": "Acute upper respiratory infection, unspecified", "is_active": true},
+  {"code": "R07.9", "display": "Chest pain, unspecified", "is_active": true},
+  {"code": "R51.9", "display": "Headache, unspecified", "is_active": true},
+  {"code": "M54.5", "display": "Low back pain", "is_active": true},
+  {"code": "R50.9", "display": "Fever, unspecified", "is_active": true},
+  {"code": "J18.9", "display": "Pneumonia, unspecified organism", "is_active": true},
+  {"code": "N39.0", "display": "Urinary tract infection, site not specified", "is_active": true},
+  {"code": "K21.0", "display": "Gastro-esophageal reflux disease with esophagitis", "is_active": true},
+  {"code": "F32.9", "display": "Major depressive disorder, single episode, unspecified", "is_active": true},
+  {"code": "G43.909", "display": "Migraine, unspecified, not intractable", "is_active": true},
+  {"code": "I48.91", "display": "Unspecified atrial fibrillation", "is_active": true},
+  {"code": "I63.9", "display": "Cerebral infarction, unspecified", "is_active": true},
+  {"code": "I21.9", "display": "Acute myocardial infarction, unspecified", "is_active": true},
+  {"code": "R06.02", "display": "Shortness of breath", "is_active": true},
+  {"code": "R10.9", "display": "Unspecified abdominal pain", "is_active": true},
+  {"code": "S72.001A", "display": "Fracture of unspecified part of neck of right femur", "is_active": true}
+]

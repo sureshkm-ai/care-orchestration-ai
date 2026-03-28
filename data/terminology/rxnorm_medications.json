@@ -1,0 +1,17 @@
+[
+  {"code": "197361", "display": "Lisinopril 10 MG Oral Tablet", "is_active": true},
+  {"code": "860975", "display": "Metformin 500 MG Oral Tablet", "is_active": true},
+  {"code": "197319", "display": "Albuterol 0.083 MG/ML Inhalation Solution", "is_active": true},
+  {"code": "314076", "display": "Atorvastatin 20 MG Oral Tablet", "is_active": true},
+  {"code": "855332", "display": "Amlodipine 5 MG Oral Tablet", "is_active": true},
+  {"code": "311671", "display": "Omeprazole 20 MG Delayed Release Oral Capsule", "is_active": true},
+  {"code": "855288", "display": "Losartan 50 MG Oral Tablet", "is_active": true},
+  {"code": "312961", "display": "Simvastatin 40 MG Oral Tablet", "is_active": true},
+  {"code": "855318", "display": "Levothyroxine 50 MCG Oral Tablet", "is_active": true},
+  {"code": "197381", "display": "Hydrochlorothiazide 25 MG Oral Tablet", "is_active": true},
+  {"code": "855302", "display": "Warfarin 5 MG Oral Tablet", "is_active": true},
+  {"code": "198211", "display": "Aspirin 325 MG Oral Tablet", "is_active": true},
+  {"code": "197517", "display": "Amoxicillin 500 MG Oral Capsule", "is_active": true},
+  {"code": "312615", "display": "Ibuprofen 200 MG Oral Tablet", "is_active": true},
+  {"code": "197591", "display": "Acetaminophen 500 MG Oral Tablet", "is_active": true}
+]

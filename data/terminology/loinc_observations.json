@@ -1,0 +1,17 @@
+[
+  {"code": "8867-4", "display": "Heart rate", "is_active": true},
+  {"code": "8480-6", "display": "Systolic blood pressure", "is_active": true},
+  {"code": "8462-4", "display": "Diastolic blood pressure", "is_active": true},
+  {"code": "8310-5", "display": "Body temperature", "is_active": true},
+  {"code": "9279-1", "display": "Respiratory rate", "is_active": true},
+  {"code": "2708-6", "display": "Oxygen saturation", "is_active": true},
+  {"code": "29463-7", "display": "Body weight", "is_active": true},
+  {"code": "8302-2", "display": "Body height", "is_active": true},
+  {"code": "39156-5", "display": "Body mass index (BMI)", "is_active": true},
+  {"code": "2339-0", "display": "Glucose [Mass/volume] in Blood", "is_active": true},
+  {"code": "2160-0", "display": "Creatinine [Mass/volume] in Serum or Plasma", "is_active": true},
+  {"code": "718-7", "display": "Hemoglobin [Mass/volume] in Blood", "is_active": true},
+  {"code": "6690-2", "display": "Leukocytes [#/volume] in Blood", "is_active": true},
+  {"code": "2093-3", "display": "Cholesterol [Mass/volume] in Serum or Plasma", "is_active": true},
+  {"code": "4548-4", "display": "Hemoglobin A1c/Hemoglobin.total in Blood", "is_active": true}
+]

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Database
+data/db/
+*.db
+*.sqlite3
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Type checking
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# AWS CDK
+infra/cdk.out/
+
+# Docker
+docker/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Audit data (contains PHI in dev)
+data/db/audit.db
+
+# Generated reports
+eval/reports/*.json
+eval/reports/*.html

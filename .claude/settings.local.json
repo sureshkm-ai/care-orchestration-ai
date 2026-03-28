@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:a2a-protocol.org)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pypi.org)",
+      "Bash(python3 -c \":*)",
+      "Bash(uv --version)",
+      "Bash(cp .env.example .env)",
+      "Bash(uv sync:*)",
+      "Bash(uv run:*)",
+      "Bash(grep -v \"^$\")"
+    ]
+  }
+}
