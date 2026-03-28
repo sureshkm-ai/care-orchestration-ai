@@ -10,7 +10,7 @@ from __future__ import annotations
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
-from jose import JWTError, jwt
+from jose import JWTError, jwt  # type: ignore[import-untyped]
 from pydantic import BaseModel
 
 from src.core.config import get_settings
@@ -42,7 +42,7 @@ def create_access_token(
     }
     if extra_claims:
         claims.update(extra_claims)
-    return jwt.encode(claims, settings.jwt_secret_key, algorithm=settings.jwt_algorithm)
+    return str(jwt.encode(claims, settings.jwt_secret_key, algorithm=settings.jwt_algorithm))
 
 
 def verify_token(token: str) -> TokenPayload:

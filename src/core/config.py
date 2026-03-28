@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     # Security (BD-5: frozen auth pattern)
     jwt_secret_key: str = "dev-only-change-in-production-min-32-chars!!"
     jwt_algorithm: str = "HS256"
-    jwt_audience: str = "healthcare-mcp-a2a"
+    jwt_audience: str = "care-orchestration-ai"
     jwt_token_lifetime_seconds: int = 3600
     encryption_key: str = "dev-only-change-in-production-32b!"
 
@@ -57,7 +57,7 @@ class Settings(BaseSettings):
     cognito_client_id_triage: str = ""
     cognito_client_id_care_coordinator: str = ""
     kms_key_id: str = ""
-    dynamodb_table_prefix: str = "healthcare-mcp-a2a"
+    dynamodb_table_prefix: str = "care-orchestration-ai"
     lineage_s3_bucket: str = ""
     audit_s3_bucket: str = ""
 

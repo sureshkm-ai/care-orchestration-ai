@@ -478,7 +478,7 @@ The `a2a-sdk` task store (in-memory for dev, SQLite for local) is treated as an 
 auth:
   issuer: Cognito User Pool (AWS) / local JWT issuer (dev)
   token_type: OAuth2 Client Credentials Grant (machine-to-machine)
-  audience: "healthcare-mcp-a2a"          # Single audience for all services
+  audience: "care-orchestration-ai"          # Single audience for all services
   scope_naming: "{resource}:{action}"     # e.g., "patient:read", "appointment:write"
   token_lifetime: 3600s (1 hour)          # Short-lived, no refresh token needed
   secret_rotation: Secrets Manager auto-rotation (90 days)
@@ -553,7 +553,7 @@ This is ADR-005. All auth code implements this pattern from day one. No redesign
 ## Project Structure
 
 ```
-healthcare-mcp-a2a/
+care-orchestration-ai/
 ├── pyproject.toml
 ├── .env.example
 ├── .pre-commit-config.yaml

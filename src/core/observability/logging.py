@@ -9,6 +9,8 @@ from __future__ import annotations
 
 import logging
 import sys
+from collections.abc import MutableMapping
+from typing import Any
 
 import structlog
 
@@ -17,10 +19,10 @@ from src.core.security.redaction import redact_dict
 
 
 def _add_correlation_id(
-    logger: logging.Logger,  # noqa: ARG001
+    logger: Any,  # noqa: ARG001
     method_name: str,  # noqa: ARG001
-    event_dict: dict[str, object],
-) -> dict[str, object]:
+    event_dict: MutableMapping[str, Any],
+) -> MutableMapping[str, Any]:
     """Inject the current correlation ID into every log event."""
     cid = get_correlation_id()
     if cid:
@@ -29,12 +31,12 @@ def _add_correlation_id(
 
 
 def _redact_phi(
-    logger: logging.Logger,  # noqa: ARG001
+    logger: Any,  # noqa: ARG001
     method_name: str,  # noqa: ARG001
-    event_dict: dict[str, object],
-) -> dict[str, object]:
+    event_dict: MutableMapping[str, Any],
+) -> MutableMapping[str, Any]:
     """Redact PHI patterns from log events."""
-    return redact_dict(event_dict)  # type: ignore[return-value]
+    return redact_dict(dict(event_dict))
 
 
 def configure_logging(log_level: str = "INFO") -> None:

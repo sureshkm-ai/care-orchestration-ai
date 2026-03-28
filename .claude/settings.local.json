@@ -11,7 +11,12 @@
       "Bash(cp .env.example .env)",
       "Bash(uv sync:*)",
       "Bash(uv run:*)",
-      "Bash(grep -v \"^$\")"
+      "Bash(grep -v \"^$\")",
+      "Bash(grep -r \"declarative_base\\\\|sqlalchemy.orm\" /Users/suresh/Library/CloudStorage/OneDrive-Personal/Documents - OneDrive/agenticai_mastery/projects/care-orchestration-ai/src --include=*.py)",
+      "Bash(grep -r \"Table\\\\|Column\\\\|Integer\\\\|String\" /Users/suresh/Library/CloudStorage/OneDrive-Personal/Documents - OneDrive/agenticai_mastery/projects/care-orchestration-ai/src/models --include=*.py)",
+      "Bash(xargs ls:*)",
+      "Bash(make seed:*)",
+      "Bash(make run:*)"
     ]
   }
 }
