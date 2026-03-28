@@ -1,5 +1,5 @@
 [project]
-name = "healthcare-mcp-a2a"
+name = "care-orchestration-ai"
 version = "0.1.0"
 description = "Multi-Agent Patient Care Coordination Platform using MCP + A2A protocols"
 requires-python = ">=3.11"

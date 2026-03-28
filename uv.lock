@@ -802,7 +802,7 @@ wheels = [
 ]
 
 [[package]]
-name = "healthcare-mcp-a2a"
+name = "care-orchestration-ai"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
