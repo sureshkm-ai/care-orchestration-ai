@@ -54,7 +54,7 @@ class DiagnosisRecord(BaseModel):
             "recordedDate": self.recorded_date.isoformat(),
         }
         if self.snomed_code:
-            resource["code"]["coding"].append(  # type: ignore[union-attr]
+            resource["code"]["coding"].append(  # type: ignore[index]
                 {
                     "system": "http://snomed.info/sct",
                     "code": self.snomed_code,

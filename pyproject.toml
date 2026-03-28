@@ -86,9 +86,9 @@ ignore = [
     "S101",  # assert used (fine in tests)
     "S105",  # hardcoded password (false positives on config defaults)
     "S106",  # hardcoded password
-    "TCH001", # move import into TYPE_CHECKING (conflicts with Pydantic runtime needs)
-    "TCH002",
-    "TCH003",
+    "TC001", # move import into TYPE_CHECKING (conflicts with Pydantic runtime needs)
+    "TC002",
+    "TC003",
     "UP042",  # prefer StrEnum -- we use (str, Enum) for Python 3.11 compat
 ]
 

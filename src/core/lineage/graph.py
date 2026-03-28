@@ -6,7 +6,7 @@ to Mermaid format for documentation.
 
 from __future__ import annotations
 
-import networkx as nx
+import networkx as nx  # type: ignore[import-untyped]
 
 from src.core.lineage.events import HealthcareLineageEvent, RunState
 
@@ -60,7 +60,7 @@ def build_lineage_dag(events: list[HealthcareLineageEvent]) -> nx.DiGraph:
 
 def validate_dag(g: nx.DiGraph) -> bool:
     """Verify the lineage graph is a valid DAG (no cycles)."""
-    return nx.is_directed_acyclic_graph(g)
+    return bool(nx.is_directed_acyclic_graph(g))
 
 
 def export_mermaid(g: nx.DiGraph) -> str:
